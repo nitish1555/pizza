@@ -15,5 +15,5 @@ app.set('views',path.join(_dirname, '/resources/views'))
 app.set('view engine', 'ejs')
 
 app.listen(PORT , () => {
-    console.log(`listening on port ${PORT}`)  
+    console.log(`listening on port ${PORT}`)
 }) 
